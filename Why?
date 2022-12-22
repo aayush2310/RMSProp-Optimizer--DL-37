@@ -1,0 +1,7 @@
+Root mean square prop
+an improvement over adagrad
+In adagrad we were taking the whole history of our gradient in the denominator of the learning rate,in RMSProp we are taking the exponentially weighted decaying average.
+The latest gradients are being given more value than the older gradients.so,v(t) never shoots high and learning rate is not too small.
+
+Adagrad problem with-complex neural networks or when working with non-convex optimization
+works well with convex optimization like linear regression.
