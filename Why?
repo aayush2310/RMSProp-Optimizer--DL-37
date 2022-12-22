@@ -5,3 +5,5 @@ The latest gradients are being given more value than the older gradients.so,v(t)
 
 Adagrad problem with-complex neural networks or when working with non-convex optimization
 works well with convex optimization like linear regression.
+
+No disadvantage
